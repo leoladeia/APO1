@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Leonardo Carvalho - My Page</title>
+	<head>
+		<title>Leonardo Carvalho - My Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Page of Leonardo Carvalho."/>
-<meta charset="UTF-8"> 
 
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	</head>
+
 <body id="top">
 <div id="cv" class="instaFade">
 	<div class="mainDetails">
@@ -22,23 +20,36 @@
 		</div>
 		
 		<div id="name">
-			<h1 class="quickFade delayTwo">Leonardo Carvalho</h1>
-			<h2 class="quickFade delayThree">Service Desk Assistant</h2>
+			<h4>Leonardo Carvalho</h4>
+			<h5>Service Desk Assistant</h5>
 		</div>
 	
 		<div class="clear"></div>
 	</div>
 	<p>
-	<div class="sectionContent">
+	<!--<div class="sectionContent">
 		<ul class="keySkills">
 			<li>About</li>
 			<li>Portfolio</li>
 		</ul>
 	</div>
-	<div class="clear"></div>
+	<div class="clear"></div>-->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark""> 
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Portfolio</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
 	
 	<div id="mainArea" class="quickFade delayFive">
-		<section>
+		<!--<section>
 			<article>
 				<div class="sectionTitle">
 					<h1>About Me</h1>
@@ -50,10 +61,39 @@
 				</div>
 			</article>
 			<div class="clear"></div>
+		</section>-->
+		<section>
+			<dl class="row">
+			  <dt class="col-sm-3">About Me</dt>
+			  <dd class="col-sm-9">
+				<article>
+					<p>My name is Leonardo Ladeia de Carvalho. I am 21 years old and I live in Barretos/SP. I was born and raised in the interior of the state, and have always lived with my parents and a sister.</p> 
+					<p>I study Information Systems at Faculdade Barretos, attending the eighth and final semester. It is the profession that I want to follow since I was 15 years old, when I started to be interested in the programming area and understood the need for good professionals in the area.</p>
+				</article>
+			  </dd>
+			  
+			  <dt class="col-sm-3">Career</dt>
+			  <dd class="col-sm-9">
+				<article>
+					<h5>Minerva Foods</h5>
+					<p class="subDetails">September 2018 - Present</p>
+					<p>I am in the N2 Infrastructure team and I am responsible for creating users, e-mails, extensions, external access, access to folders on the network.</p>
+					<p>I am also responsible for solving bigger problems like unit without internet or telephony.</p>
+				</article>
+			  </dd>
+
+			  <dt class="col-sm-3">Interests</dt>
+			  <dd class="col-sm-9">
+				<ul class="keySkills">
+					<li></li>
+					<li>Network</li>
+					<li>Web development</li>
+				</ul>
+			  </dd>
+			</dl>
 		</section>
 		
-		
-		<section>
+		<!--<section>
 			<div class="sectionTitle">
 				<h1>Career</h1>
 			</div>
@@ -83,20 +123,172 @@
 				</ul>
 			</div>
 			<div class="clear"></div>
+		</section>-->
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+					  <img src="email.png" class="img-fluid" alt="Responsive image" width=100>
+					</div>
+					<div class="col-sm">
+					  <img src="facebook.png" class="img-fluid" alt="Responsive image" width=100>
+					</div>
+				</div>
+			</div>
 		</section>
 		
-		<section>			
-			<div id="contactDetails" class="quickFade delayFour">
-				<ul>
-					<div id="headshot" class="quickFade">
-						<img src="email.png"/>
-					</div>
-					<div id="headshot" class="quickFade">
-						<img src="facebook.png"/>
-					</div>
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Leonardo Carvalho - My Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
+
+
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	</head>
+
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="perfil.jpg"/>
+		</div>
+		
+		<div id="name">
+			<h4>Leonardo Carvalho</h4>
+			<h5>Service Desk Assistant</h5>
+		</div>
+	
+		<div class="clear"></div>
+	</div>
+	<p>
+	<!--<div class="sectionContent">
+		<ul class="keySkills">
+			<li>About</li>
+			<li>Portfolio</li>
+		</ul>
+	</div>
+	<div class="clear"></div>-->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark""> 
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Portfolio</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<!--<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>About Me</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>My name is Leonardo Ladeia de Carvalho. I am 21 years old and I live in Barretos/SP. I was born and raised in the interior of the state, and have always lived with my parents and a sister.</p> 
+					<p>I study Information Systems at Faculdade Barretos, attending the eighth and final semester. It is the profession that I want to follow since I was 15 years old, when I started to be interested in the programming area and understood the need for good professionals in the area.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>-->
+		<section>
+			<dl class="row">
+			  <dt class="col-sm-3">About Me</dt>
+			  <dd class="col-sm-9">
+				<article>
+					<p>My name is Leonardo Ladeia de Carvalho. I am 21 years old and I live in Barretos/SP. I was born and raised in the interior of the state, and have always lived with my parents and a sister.</p> 
+					<p>I study Information Systems at Faculdade Barretos, attending the eighth and final semester. It is the profession that I want to follow since I was 15 years old, when I started to be interested in the programming area and understood the need for good professionals in the area.</p>
+				</article>
+			  </dd>
+			  
+			  <dt class="col-sm-3">Career</dt>
+			  <dd class="col-sm-9">
+				<article>
+					<h5>Minerva Foods</h5>
+					<p class="subDetails">September 2018 - Present</p>
+					<p>I am in the N2 Infrastructure team and I am responsible for creating users, e-mails, extensions, external access, access to folders on the network.</p>
+					<p>I am also responsible for solving bigger problems like unit without internet or telephony.</p>
+				</article>
+			  </dd>
+
+			  <dt class="col-sm-3">Interests</dt>
+			  <dd class="col-sm-9">
+				<ul class="keySkills">
+					<li></li>
+					<li>Network</li>
+					<li>Web development</li>
+				</ul>
+			  </dd>
+			</dl>
+		</section>
+		
+		<!--<section>
+			<div class="sectionTitle">
+				<h1>Career</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Minerva Foods</h2>
+					<p class="subDetails">September 2018 - Present</p>
+					<p>I am in the N2 Infrastructure team and I am responsible for creating users, e-mails, extensions, external access, access to folders on the network.</p>
+					<p>I am also responsible for solving bigger problems like unit without internet or telephony.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Interests</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li></li>
+					<li>Network</li>
+					<li>Web development</li>
 				</ul>
 			</div>
 			<div class="clear"></div>
+		</section>-->
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+					  <img src="email.png" class="img-fluid" alt="Responsive image" width=100>
+					</div>
+					<div class="col-sm">
+					  <img src="facebook.png" class="img-fluid" alt="Responsive image" width=100>
+					</div>
+				</div>
+			</div>
 		</section>
 		
 	</div>
